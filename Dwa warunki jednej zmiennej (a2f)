@@ -1,0 +1,10 @@
+a=input()
+b=input()
+c=input()
+a=int(a)
+b=int(b)
+c=int(c)
+if b<=a<=c:
+    print("tak")
+else:
+    print("nie")
