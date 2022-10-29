@@ -1,0 +1,7 @@
+suma=0
+while(True):
+    a=int(input())
+    suma+=a
+    if suma>2000 or suma<=-2000:
+        break
+print(suma)
