@@ -1,0 +1,22 @@
+a=input().split(":")
+mithryl=int(a[0])
+złoto=int(a[1])
+srebro=int(a[2])
+miedziaki=int(a[3])
+
+if miedziaki>11:
+    x=miedziaki%12
+    y=(miedziaki-x)/12
+    srebro=srebro+y
+    miedziaki=miedziaki-12*y
+if srebro>19:
+    x=srebro%20
+    y=(srebro-x)/20
+    złoto=złoto+y
+    srebro=srebro-20*y
+if złoto>99:
+    x=złoto%100
+    y=(złoto-x)/100
+    mithryl=mithryl+y
+    złoto=złoto-100*y
+print(int(mithryl),int(złoto),int(srebro),int(miedziaki),sep=":")
