@@ -1,0 +1,10 @@
+a=input()
+b=input()
+a=int(a)
+b=int(b)
+c=abs(a)
+d=abs(b)
+if c>d:
+    print(b)
+else:
+    print(a)
