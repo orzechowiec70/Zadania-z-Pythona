@@ -1,0 +1,7 @@
+a=input()
+b=a[-1]
+c=ord(b)+1
+if ord(b)==122:
+    print("a")
+else:
+    print(chr(c))
